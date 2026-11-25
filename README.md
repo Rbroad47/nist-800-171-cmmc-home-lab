@@ -11,13 +11,19 @@ A sanitized compliance package built against a home network scoped as a mock CUI
 
 | Artifact | 800-171 requirement | File |
 |---|---|---|
+| System Security Plan (v2.0) with current and target network diagrams | 3.12.4 | [`ssp/SSP_Home_GRC_Lab_Environment.docx`](ssp/SSP_Home_GRC_Lab_Environment.docx) |
+| Control assessment (49 requirements) + risk register (v2.0) | 3.11.1, 3.12.1 | [`workbooks/Control_Assessment_and_Risk_Register.xlsx`](workbooks/Control_Assessment_and_Risk_Register.xlsx) |
 | POA&M + 110-requirement control implementation matrix | 3.12.2 | [`workbooks/POAM_and_Control_Matrix_Home_GRC_Lab.xlsx`](workbooks/POAM_and_Control_Matrix_Home_GRC_Lab.xlsx) |
 | Access Control Policy (POL-01) | 3.1, 3.5, 3.13.1/.3/.5/.6 | [`policies/POL-01_Access_Control_Policy.docx`](policies/POL-01_Access_Control_Policy.docx) |
 | Incident Response Policy (POL-02) | 3.6, 3.3.1/.2/.7, 3.14.6/.7, 3.8.9 | [`policies/POL-02_Incident_Response_Policy.docx`](policies/POL-02_Incident_Response_Policy.docx) |
 | Configuration Management Policy (POL-03) | 3.4, 3.11.2/.3, 3.14.1/.3 | [`policies/POL-03_Configuration_Management_Policy.docx`](policies/POL-03_Configuration_Management_Policy.docx) |
 | Executive summary & gap analysis memo | — | [`reports/Executive_Summary_Gap_Analysis_Home_GRC_Lab.docx`](reports/Executive_Summary_Gap_Analysis_Home_GRC_Lab.docx) |
-| System Security Plan + boundary diagram | 3.12.4 | *To be added* |
-| Control assessment (49 requirements) + risk register | 3.11.1, 3.12.1 | *To be added* |
+
+## Network architecture
+
+![Current state](images/network-current.png)
+
+![Target state](images/network-target.png)
 
 ## How the pieces connect
 
@@ -45,13 +51,17 @@ Executive Summary ── bottom line, posture, roadmap, decisions requested
 
 | Status | Requirements |
 |---|---|
-| Met | 4 |
-| Partially Met | 3 |
-| Not Met | 13 |
-| To Confirm (assessed in Week 2, results being transferred) | 44 |
+| Met | 32 |
+| Partially Met | 14 |
+| Not Met | 16 |
+| Not Applicable | 2 |
 | Not Assessed | 46 |
 
 No SPRS-style score is reported yet. With 46 requirements unassessed, any score would overstate readiness.
+
+## A note on version 2.0
+
+The original Week 1 SSP and Week 2 assessment workbook were lost. Both were rebuilt as version 2.0 from the published risk register (R-001 to R-004) and the program documents. The per-control Week 2 results and risks R-005 to R-008 are an illustrative reconstruction consistent with those findings, and each file says so.
 
 ## Using these as templates
 
