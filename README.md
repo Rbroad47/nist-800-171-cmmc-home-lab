@@ -7,6 +7,8 @@ A sanitized compliance package built against a home network scoped as a mock CUI
 **Author:** Russell "Dusty" Broad, CISA, Security+ · [Medium](https://medium.com/@rbroad47)
 **Framework:** NIST SP 800-171 Rev. 2 (110 requirements) · CMMC Level 2 · NIST CSF 2.0 for the governance approach
 
+📝 **Write-up:** [CMMC Phase 2 Is Paused. I Finished My NIST 800-171 Home Lab Anyway.](https://medium.com/@rbroad47/cmmc-phase-2-is-paused-i-finished-my-nist-800-171-home-lab-anyway-a1f72cb4257b) · Earlier assessment: [Auditing My Home Network Against NIST CSF 2.0](https://medium.com/@rbroad47/auditing-my-home-network-against-nist-csf-2-0-a-hands-on-guide-to-practical-risk-management-ff0dcf6deb43)
+
 ## What's in the repo
 
 | Artifact | 800-171 requirement | File |
